@@ -18,9 +18,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSMutableArray *theArray = [[ NSMutableArray alloc] initWithArray:nil];
-    NSLog(@"Barray :%@",theArray);
+    NSLog(@"B array :%@",theArray);
     [theArray addObject:@"abc"];
     NSLog(@"A array :%@",theArray);
+    [theArray addObject:@"XYZ"];
+    NSLog(@"c array :%@",theArray);
 
 }
 
