@@ -25,6 +25,10 @@
     NSLog(@"c array :%@",theArray);
     [theArray addObject:@"MNO"];
     NSLog(@"d array :%@",theArray);
+    
+    NSLog(@"*******");
+    [theArray addObject:@"HEM"];
+    NSLog(@"e array :%@",theArray);
 
 }
 
