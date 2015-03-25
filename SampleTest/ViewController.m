@@ -23,6 +23,8 @@
     NSLog(@"A array :%@",theArray);
     [theArray addObject:@"XYZ"];
     NSLog(@"c array :%@",theArray);
+    [theArray addObject:@"MNO"];
+    NSLog(@"d array :%@",theArray);
 
 }
 
