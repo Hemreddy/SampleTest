@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSMutableArray *theArray = [[ NSMutableArray alloc] initWithArray:nil];
+    NSLog(@"Barray :%@",theArray);
+    [theArray addObject:@"abc"];
+    NSLog(@"A array :%@",theArray);
+
 }
 
 - (void)didReceiveMemoryWarning {
